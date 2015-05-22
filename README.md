@@ -14,20 +14,14 @@ The instruction set is detailed under ``include/instr.hpp``.
 
 An overview:
 
-+-----+----+------------------------------------------------------+
+Instruction | Opcode | Operation
+--- | --- | ---
 | HLT | 00 | Halts the VM                                         |
-+-----+----+------------------------------------------------------+
 | PSH | 01 | Pushes a value to the stack                          |
-+-----+----+------------------------------------------------------+
 | ADD | 02 | Adds together the two topmost values on the stack    |
-+-----+----+------------------------------------------------------+
 | POP | 03 | Removes a value from the top of the stack            |
-+-----+----+------------------------------------------------------+
 | SET | 04 | Sets the value of a given register to a given value  |
-+-----+----+------------------------------------------------------+
 | PRN | 05 | Prints the value of a given register                 |
-+-----+----+------------------------------------------------------+
-
 
 TODO
 ----
